@@ -1,0 +1,148 @@
+.frame {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .group-wrapper {
+  /* overflow-x: hidden; */
+  height: 100%;
+  width: 459px;
+}
+
+.frame .group {
+  position: relative;
+  width: 463px;
+  height: 426px;
+}
+
+.frame .heroicons-outline {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  top: 0;
+  left: 0;
+}
+
+.frame .overlap-group {
+  position: absolute;
+  width: 459px;
+  height: 48px;
+  top: 121px;
+  left: 0;
+}
+
+.frame .text-wrapper {
+  position: absolute;
+  width: 459px;
+  top: 12px;
+  left: 0;
+  font-family: "Fustat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: -0.48px;
+  line-height: 28.8px;
+}
+
+.frame .img {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 0;
+  left: 373px;
+}
+
+.frame .div {
+  position: absolute;
+  width: 341px;
+  top: 191px;
+  left: 0;
+  font-family: "Fustat-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: -0.20px;
+  line-height: 27.2px;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4em;
+  margin-top: 8em;
+}
+
+
+.interview-findings {
+  padding: 20px;
+  text-align: center;
+}
+
+.interview-findings h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.findings-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.finding-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.finding-card span {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.finding-card p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .finding-card {
+    width: 120px;
+    padding: 15px;
+  }
+
+  .finding-card span {
+    font-size: 1.5rem;
+  }
+
+  .finding-card p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .finding-card {
+    width: 100px;
+    padding: 10px;
+  }
+
+  .finding-card span {
+    font-size: 1.2rem;
+  }
+
+  .finding-card p {
+    font-size: 0.8rem;
+  }
+}
