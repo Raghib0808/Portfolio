@@ -8,6 +8,7 @@ import Dialogue from '../Dialogue'
 import Chat_whole from './Chat_whole'
 import ThreeRounded from './ThreeRounded'
 import FullWidth from './FullWidth'
+import FeedbackCards from '../FeedbackCards'
 
 const Proj_H = () => {
   return (
@@ -199,13 +200,53 @@ for example, imagine a user being able to ask, “What are my new items from las
 
 
 
+                        {/* small div */}
+                        <div className='sma'>
+                                <div>prototype 01</div>
+                                <div>NLP SELECTION TESTING</div>
+                                <div>Prototype combines NLP selection with AI-generated insights.</div>
+                        </div>
 
 
+                {/* the img comtainer */}
+                        <div className='imgd'>
+                                <div className='th1'>
+                                <img src ='three1.svg' />
+                                </div>
+                                <div className='th1'>
+                                <img src ='three2.svg' />
+                                </div>
+                                <div className='th1'>
+                                <img src ='three3.svg' />
+                                </div>
+                               
+                        </div>
+
+                        {/* insig sec */}
+                        <div className='ins'>
+                                        <div>usability test</div>
+                                        <div>NLP SELECTION feedback</div>
+                        </div>
+
+                        {/* another image div */}
+                        <div className='jus'>
+                                <div>“would you use this?”</div>
+                                <div className='th1 th1io'>
+                                        <img src='status_bar.svg'/>
+                                </div>
+                        </div>
 
 
-
-
-
+                        <FeedbackCards/>
+                        {/* black scree */}
+                        <div className='add '>
+                <div className='add-comt di'>
+                        <div >so what did
+                        we build?</div>
+                
+                </div>
+                
+        </div>
 
     </>
   )
