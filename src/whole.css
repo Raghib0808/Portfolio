@@ -1,0 +1,72 @@
+.lefts{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.lefts{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5em;
+}
+
+
+.lefts1{
+    align-self: stretch;
+    color: #000;
+font-feature-settings: 'ss03' on;
+font-family: Fustat;
+font-size: 2.3em;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 57.6px */
+letter-spacing: -1.056px;
+}
+
+.lefts2{
+    width: 100%;
+    color: #000;
+font-variant-numeric: lining-nums proportional-nums;
+font-feature-settings: 'ss03' on;
+font-family: Fustat;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.48px;
+}
+
+.thre{
+    border-radius: 0px 20px 20px 20px;
+    background: #F7F7F7;
+    display: inline-flex;
+padding: 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+.thre1{
+    color: #000;
+font-kerning: none;
+font-variant-numeric: lining-nums proportional-nums slashed-zero;
+font-feature-settings: 'ss03' on, 'ss05' on;
+font-family: Fustat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 148%; /* 23.68px */
+letter-spacing: 0.72px;
+width: 24.75em;
+}
+
+.thh{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10em;
+    /* gap: 10em; */
+}

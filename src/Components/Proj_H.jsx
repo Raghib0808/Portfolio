@@ -5,6 +5,8 @@ import InterviewInsight from '../InterviewInsight'
 import Round_chat from './Round_chat'
 import Not_chat from './Not_chat'
 import Dialogue from '../Dialogue'
+import Chat_whole from './Chat_whole'
+import ThreeRounded from './ThreeRounded'
 
 const Proj_H = () => {
   return (
@@ -164,6 +166,18 @@ workflows and challenges.`} heading={`prototype testing`}/>
         </div>
 
         <Dialogue/>
+
+        <Chat_whole ThreeRound={`I would expect this to give me more relevant suggestions over time.`} text={`custom definitions and hierarchies, particularly those used internally by different teams, pose a challenge.
+
+users stress the importance of AI being able to interpret nuanced and context-specific queries to ensure the reliability of insights generated -- and consistency across their team.`} head={`users question whether AI will understand casual language, pick custom data, or handle complexity -- but they want it all`} />
+
+
+        <Chat_whole ThreeRound={`I would expect this to give me more relevant suggestions over time.`} text={`1. report building and analysis will be faster (“I can get started faster,” “This saves me clicks”)2. users also imagined freedom from the constant questions from colleagues. (“Senior leadership can use this like Google.”) 
+
+for example, imagine a user being able to ask, “What are my new items from last year?” instead of running a report to first figure out what their new items are before they can analyze them.`} head={`users see time saving as the greatest benefit of AI`} />
+        
+       
+
 
 
 
