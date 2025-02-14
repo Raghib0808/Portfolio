@@ -1,0 +1,245 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.gla1{
+padding: 8px 13px 2px 13px;
+gap: 10px;
+border-top: 1px solid #D3D3D3;
+border-right: 1px solid #D3D3D3;
+border-left: 1px solid #D3D3D3;
+color: #000;
+font-kerning: none;
+font-variant-numeric: lining-nums proportional-nums slashed-zero;
+font-feature-settings: 'ss03' on, 'ss05' on;
+font-family: Fustat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 18.2px */
+}
+
+.gla-but{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1em;
+
+}
+
+.gla-head{
+    padding-left: 3em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.h12{
+    color: #000;
+font-kerning: none;
+font-variant-numeric: lining-nums proportional-nums slashed-zero;
+font-feature-settings: 'ss03' on, 'ss05' on;
+font-family: Fustat;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 115%; /* 73.6px */
+}
+
+.headleft{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1em;
+    flex-direction: column;
+}
+
+.headleft div:nth-child(1){
+    color: #FFF;
+font-variant-numeric: lining-nums proportional-nums;
+font-family: Fustat;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 148%; /* 20.72px */
+letter-spacing: 0.63px;
+}
+
+.headleft div:nth-child(2){
+    color: #B1B1B1;
+    font-feature-settings: 'ss03' on;
+    font-family: Fustat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%; /* 34.8px */
+    max-width: 30em;
+}
+.headleft div:nth-child(3){
+    color: #B1B1B1;
+font-feature-settings: 'ss03' on;
+font-family: Fustat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 145%; /* 34.8px */
+max-width: 30em;
+}
+
+.hedb{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #161616;
+    padding: 20px;
+}
+
+.hhh{
+    max-width: 50%;
+}
+
+.hhh img{
+    display: block;
+    width: 100%;
+    object-fit: contain;
+}
+
+.headan {
+        display: flex;
+        align-items: self-start;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 10em;
+}
+
+.headan div:nth-child(1){
+    color: #000;
+font-feature-settings: 'ss03' on;
+font-family: Fustat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 166.5%; /* 26.64px */
+
+}
+
+.headan div:nth-child(2){
+    color: #5C5C5C;
+font-feature-settings: 'ss03' on;
+font-family: Fustat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 166.5%; /* 39.96px */
+letter-spacing: 0.36px;
+max-width: 40em;
+}
+
+.ran{
+    color: #000;
+font-feature-settings: 'ss03' on;
+font-family: Fustat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 166.5%; /* 26.64px */
+margin-top: 15em;
+}
+
+.wholes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr)); /* Responsive columns */
+    gap: 2em; /* Space between items */
+    justify-items: center; /* Centers items horizontally */
+    padding: 1em; /* Prevents touching screen edges */
+    width: 100%;
+
+    max-width: 1200px;
+    margin: 0 auto; /* Centers the grid */
+}
+
+.whole1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 25em;
+    padding: 1em;
+    gap: 1em;
+    text-align: left;
+}
+
+img {
+    display: block;
+    max-width: 100%; /* Prevents overflow */
+    height: auto; /* Keeps aspect ratio */
+    object-fit: cover;
+}
+
+.whole2 {
+    color: #000;
+    font-feature-settings: 'ss03' on;
+    font-family: Fustat;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.66;
+    letter-spacing: 0.3px;
+    margin-top: 0.5em;
+}
+
+.whole3 {
+    color: #5C5C5C;
+    font-feature-settings: 'ss03' on;
+    font-family: Fustat;
+    font-size: 13px;
+    align-self: flex-start;
+    font-weight: 400;
+    line-height: 1.66;
+    letter-spacing: 0.24px;
+    max-width: 25em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .wholes {
+        grid-template-columns: 1fr; /* Single column on smaller screens */
+    }
+}
+
+
+.fpage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #191919;
+    height: 100vh;
+    width: 100%;
+    padding: 1em;
+}
+
+.ff{
+    max-width: 40em;
+}
+
+.dif img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.dif{
+    max-width: 80vw;
+    margin-left: 10vw;
+    border: solid;
+    margin-right: 10vw;
+    margin-top: 5em;
+}

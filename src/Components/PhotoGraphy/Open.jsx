@@ -1,5 +1,5 @@
 import React from 'react'
-import './Open.css'
+import './open.css'
 import Grid_photo from './Grid_photo'
 
 const Open = () => {
