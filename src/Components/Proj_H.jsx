@@ -248,6 +248,16 @@ for example, imagine a user being able to ask, “What are my new items from las
                 
         </div>
 
+                        <div className='ioi'>a roadmap, according to our users</div>
+
+        {/* table */}
+        <div className='tab'>
+                <img src='Table.svg'/>
+        </div>
+
+        <FullWidth text={` How can we make this thing smart enough to know what people are asking... when people don't know what they're asking for?`} etc={`User, Beam Suntory `} />
+
+
     </>
   )
 }
