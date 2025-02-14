@@ -9,7 +9,9 @@ const Chat_whole = ({head,text,ThreeRound}) => {
                         <div className='lefts2'>{text}</div>
                 </div>
 
-                <div>
+                <div className='the'>
+                      <ThreeRounded text={ThreeRound} />
+                      <ThreeRounded text={ThreeRound} />
                       <ThreeRounded text={ThreeRound} />
                 </div>
                 

@@ -7,6 +7,7 @@ import Not_chat from './Not_chat'
 import Dialogue from '../Dialogue'
 import Chat_whole from './Chat_whole'
 import ThreeRounded from './ThreeRounded'
+import FullWidth from './FullWidth'
 
 const Proj_H = () => {
   return (
@@ -165,6 +166,7 @@ workflows and challenges.`} heading={`prototype testing`}/>
                 </div>
         </div>
 
+
         <Dialogue/>
 
         <Chat_whole ThreeRound={`I would expect this to give me more relevant suggestions over time.`} text={`custom definitions and hierarchies, particularly those used internally by different teams, pose a challenge.
@@ -176,7 +178,24 @@ users stress the importance of AI being able to interpret nuanced and context-sp
 
 for example, imagine a user being able to ask, “What are my new items from last year?” instead of running a report to first figure out what their new items are before they can analyze them.`} head={`users see time saving as the greatest benefit of AI`} />
         
+        <FullWidth text={`Arthur is going to learn from how you use it!`} etc={`our Sales Engineering team in a demo to Account Directors `} />
        
+
+        <div className='ex'>
+                        <div className='exc'>design
+                                <br/>
+                        feedback</div>
+                
+                <div className='add-comt2 io4'> 
+                        <div className='pp'>
+
+                        <ThreeRounded text={`Do you understand what the colors mean?`}  />
+                        </div>
+                       <div className='ne'>
+                                        <div className='ne1'>uh....no?</div>
+                        </div>
+                </div>
+        </div>
 
 
 

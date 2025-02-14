@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 .lefts{
     display: flex;
     align-items: flex-start;
@@ -55,12 +60,13 @@ font-kerning: none;
 font-variant-numeric: lining-nums proportional-nums slashed-zero;
 font-feature-settings: 'ss03' on, 'ss05' on;
 font-family: Fustat;
-font-size: 16px;
+font-size: 15px;
 font-style: normal;
 font-weight: 500;
 line-height: 148%; /* 23.68px */
 letter-spacing: 0.72px;
-width: 24.75em;
+width: 22em;
+/* border: solid red; */
 }
 
 .thh{
@@ -69,4 +75,85 @@ width: 24.75em;
     justify-content: space-between;
     margin-top: 10em;
     /* gap: 10em; */
+}
+
+.the{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.ex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    padding: 2em;
+    gap: 1.6em;
+    margin-top: 10em;
+    width: 100%;
+    height: 100vh;
+    background-color: #111111;
+}
+
+.exc{
+    color: white;
+font-variant-numeric: lining-nums proportional-nums;
+font-feature-settings: 'ss03' on;
+font-family: Fustat;
+font-size: 96px;
+font-style: normal;
+font-weight: 700;
+line-height: 115%; 
+}
+
+.ne{
+    border-radius: 20px 0px 20px 20px;
+border: 1px solid #FFF;
+display: inline-flex;
+padding: 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin-left: auto;
+justify-content: flex-end; 
+}
+
+.ne1{
+    color: #FFF;
+font-kerning: none;
+font-variant-numeric: lining-nums proportional-nums slashed-zero;
+font-feature-settings: 'ss03' on, 'ss05' on;
+font-family: Fustat;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 148%; /* 23.68px */
+letter-spacing: 0.72px;
+width: 22em;
+}
+
+.io4{
+     width: 40%;
+    display: flex;
+    
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-end; 
+    gap: 2em;
+}
+
+.fake{
+    width: 120%;
+    border: solid red;
+    box-sizing: border-box;
+
+}
+
+.pp{
+    margin-right: auto;
 }
