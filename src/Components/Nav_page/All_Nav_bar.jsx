@@ -1,5 +1,6 @@
 import React from 'react'
 import './All_Nav.css'
+import { Link } from 'react-router-dom'
 
 const All_Nav_bar = () => {
   return (
@@ -7,10 +8,11 @@ const All_Nav_bar = () => {
     <div className='Nav'>
             <div className='Nav1'>designed with intent.</div>
             <div className='Nav2'>
-                 <span className='navv'>about me</span> 
-                 <span className='navv'>about me</span> 
-                 <span className='navv'>about me</span> 
-                 <span className='navv'>about me</span> 
+
+                 <span className='navv'> <Link to='/'>About me </Link></span> 
+                 <span className='navv'> <Link to='/Glassdoor'>About me </Link> </span> 
+                 <span className='navv'> <Link to='/Fun_Stuf'>Fun Stuff </Link> </span> 
+                 <span className='navv'> <Link to='/WaveWorks'>WaveWork </Link> </span> 
               
             </div>
     </div>

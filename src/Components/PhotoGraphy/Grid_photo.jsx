@@ -1,6 +1,8 @@
 import React from 'react';
 
 const GridPhoto = ({ images }) => {
+  console.log(images);
+  
   return (
     <div className="openg">
       {images.map((src, index) => (

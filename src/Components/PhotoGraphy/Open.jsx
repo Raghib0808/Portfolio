@@ -6,7 +6,9 @@ const Open = () => {
 const imageList = ["ph1.svg", "ph2.svg", "ph3.svg", "ph4.svg", "ph5.svg", "ph6.svg"];
 const imageList2 = ["ph11.png", "ph12.png", "ph13.png", "ph14.png", "ph15.png", "ph16.png","ph17.png","ph18.png","ph19.png","ph20.png","ph21.png","ph22.png"];
 
+console.log(imageList);
   return (
+    
     <>
     <div className='photo-h'>
             <div className='photo1'>creative storytelling</div>

@@ -1,0 +1,161 @@
+.haf{
+    width: 60%;
+}
+
+.dark{
+    display: flex;
+    align-items: flex-start;
+    background: linear-gradient(0deg, #161616 0%, #161616 100%), #191919;    justify-content: center ;
+    height: 100vh;
+    width: 100%;
+    gap: 2em;
+    position: relative;
+    flex-direction: column;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.dark2{
+    width: 60%;
+    color: #B1B1B1;
+font-feature-settings: 'ss03' on;
+font-family: Fustat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 145%; /* 34.8px */
+}
+
+.dark1{
+    color: #FFF;
+font-variant-numeric: lining-nums proportional-nums;
+font-family: Fustat;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 148%; 
+letter-spacing: 0.63px;
+}
+
+.dimg{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 40%;
+}
+
+@media (max-width: 970px) {
+    .dark2 {
+        width: 100%;
+        font-size: 15px;
+
+    }
+    .dark{
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .dimg{
+        height: 30%;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+ 
+}
+@media (max-width: 579px) {
+    .dark2 {
+        width: 100%;
+        font-size: 15px;
+
+        
+    }
+    .dark{
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .haf{
+        font-size: 40px;
+        width: 100%;
+    }
+}
+
+.wspc{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wspc img{
+        max-width : 100%;
+        display: block;
+}
+
+.message-box {
+    background: #1a1a1a; /* Dark background */
+    color: #fff; /* White text */
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+    padding: 15px 20px;
+    border-radius: 15px; /* Rounded corners */
+    width: 651px; /* Adjust width */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow */
+}
+
+.ssvvgg{
+    max-width: 100%;
+}
+
+.qc14{
+    color: #858282;
+font-feature-settings: 'ss03' on;
+font-family: Fustat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 166.5%;
+}
+
+.qc1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+      flex-direction: column ;
+      width: 70%;
+      position: relative;
+      gap: 1em;
+  }
+  
+  .Quotee{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    
+  }
+
+
+  .whitec{
+    position: absolute;
+    left: 0;
+    top: 0;
+     transform: translate(-100%,-100%);
+  }
+
+  @media (max-width: 920px) {
+    .qc1{
+        width: 100%;
+     }
+
+    .qc14{
+        font-size: 14px;
+
+    }
+
+}
+
+

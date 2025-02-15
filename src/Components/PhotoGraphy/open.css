@@ -109,3 +109,23 @@ line-height: 166.5%; /* 26.64px */
         }
     }
     
+
+    /* Reset Link Styles */
+a, a:visited, a:hover, a:focus, a:active {
+    text-decoration: none !important;
+    color: inherit !important;
+    outline: none !important;
+    background: none !important;
+    border: none !important;
+}
+
+
+@media (max-width: 500px) {
+    .ph11 {
+        height: 200px;
+    }
+    .photo1{
+        font-size: 3em;
+
+    }
+}

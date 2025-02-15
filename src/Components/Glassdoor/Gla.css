@@ -36,6 +36,7 @@ line-height: 130%; /* 18.2px */
     justify-content: center;
     flex-direction: column;
     height: 100vh;
+    gap: 1em;
     width: 100%;
 }
 
@@ -301,5 +302,36 @@ transform: translateY(-50%);
     height: 100%;
     object-fit: contain;
     border: solid blue;
+
+}
+
+
+@media (max-width: 500px) {
+    .h12 {
+        font-size: 45px;
+     }
+     .gla-head{
+        gap: 1em;
+     }
+     .oiu1{
+        font-size: 45px;
+     }
+
+     .headleft div:nth-child(2){
+        font-size: 15px;
+
+     }
+     .headleft div:nth-child(3){
+        font-size: 15px;
+
+     }
+     .hhh{
+        max-width: 100%;
+    }
+}
+@media (max-width: 920px) {
+    .hedb{
+        flex-direction: column;
+    }
 
 }

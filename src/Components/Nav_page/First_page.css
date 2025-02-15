@@ -97,7 +97,7 @@ line-height: 115%;
 }
 
 .allp1{
-    color: #949494;
+     color: #949494;
 font-kerning: none;
 font-variant-numeric: lining-nums proportional-nums slashed-zero;
 font-feature-settings: 'ss03' on, 'ss05' on;
@@ -181,7 +181,7 @@ border: 1px solid #151515;
     object-fit: cover ;
     aspect-ratio: 16/9;
     width: 640px;
-    height: 483px;
+    height: 403px;
 }
 
 .allbutt:hover{
@@ -215,8 +215,40 @@ border: 1px solid #151515;
 @media (max-width: 1080px) {
     .allp1{
         flex-direction: column;
+        gap: 2em;
+        width: 60%;
     }
     .book{
         height: 253px;
     }
+    .First{
+        margin: 0;
+    }
+}
+@media (max-width: 923px) {
+    .allp1{
+        flex-direction: column;
+        gap: 2em;
+        width: 90%;
+        border: red;
+    }
+   
+}
+@media (max-width: 1230px) {
+    .First div:nth-child(2){
+        font-size: 4rem;
+        border: solid;
+
+    }
+   
+}
+@media (max-width: 970px) {
+    .First div:nth-child(2){
+        font-size: 3.5rem;
+ 
+    }
+    .First{
+        height: 70vh;
+    }
+   
 }
