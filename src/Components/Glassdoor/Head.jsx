@@ -59,7 +59,7 @@ const Head = () => {
         <div className='fpage'>
             <div className='ff'>
 
-            <img src="https://drive.google.com/uc?export=view&id=15_7zZhmw7WXwZh4QAXS0QviAGE4f_PnC" alt="My Image"/>
+            <img src={import.meta.env.VITE_TIMELINE} alt="My Image"/>
             </div>
         </div>
 
