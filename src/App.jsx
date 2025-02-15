@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-    {/* <All_Nav_bar/> */}
+    <All_Nav_bar/>
     <Routes>
           <Route path='/' element={<First_page/>}/>
           <Route path='/Glassdoor' element={<Head/>}/>
