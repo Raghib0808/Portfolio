@@ -59,7 +59,7 @@ const Head = () => {
         <div className='fpage'>
             <div className='ff'>
 
-            <img src='timeline.svg'/>
+            <img src="https://drive.google.com/uc?export=view&id=15_7zZhmw7WXwZh4QAXS0QviAGE4f_PnC" alt="My Image"/>
             </div>
         </div>
 
@@ -67,6 +67,48 @@ const Head = () => {
         <div className='dif'>
             <img src="dif.svg" alt="" />
         </div>
+
+        {/* div of full width */}
+        <div className='oiu'>
+            <div className='oiu1'>glassdoor</div>
+            <div className='oiu2'>reimagined visual design </div>
+        </div>
+
+        {/* image */}
+        <div className='holder'>
+            <img src="Group195.svg" alt="" />
+        </div>
+
+
+
+{/* grid layout */}
+        <div class="img-grid">
+        <div class="img-wrapper">
+            <img src="MOB1.svg" alt="Mobile 1"/>
+        </div>
+        <div class="img-wrapper">
+            <img src="MOB2.svg" alt="Mobile 2"/>
+        </div>
+        <div class="img-wrapper">
+            <img src="MOB3.svg" alt="Mobile 3"/>
+        </div>
+        <div class="img-wrapper">
+            <img src="MOB4.svg" alt="Mobile 4"/>
+        </div>
+        <div class="img-wrapper">
+            <img src="MOB5.svg" alt="Mobile 5"/>
+        </div>
+        <div class="img-wrapper">
+            <img src="MOB6.svg" alt="Mobile 6"/>
+        </div>
+        <div class="img-wrapper">
+            <img src="MOB7.svg" alt="Mobile 7"/>
+        </div>
+        <div class="img-wrapper">
+            <img src="MOB8.svg" alt="Mobile 8"/>
+        </div>
+    </div>
+
 
 
     </>
