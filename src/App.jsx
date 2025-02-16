@@ -9,6 +9,7 @@ import All_Nav_bar from './Components/Nav_page/All_Nav_bar'
 import { Route, Routes } from 'react-router-dom'
 import GridPhoto from './Components/PhotoGraphy/Grid_photo'
 import WaveWorks from './Components/Glassdoor/WaveWorks'
+import Insight from './Components/Insight/Insight'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
           <Route path='/Glassdoor' element={<Head/>}/>
           <Route path='/Fun_Stuf' element={<Open/>}/>
           <Route path='/WaveWorks' element={<WaveWorks/>}/>
+          <Route path='/Insight' element={<Insight/>}/>
     </Routes>
 
 

@@ -6,13 +6,22 @@
     flex-wrap: wrap;
 }
 
+.upperNav{
+
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 8;
+}
+
 
 .Nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 2em 2em .5em 2em;
-    
+    margin: 0px;
+    padding: 2em 2em .5em 2em;
+    /* border: solid blue; */
 }
 
 .Nav1{

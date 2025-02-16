@@ -1,10 +1,11 @@
 import React from 'react'
 import './All_Nav.css'
 import { Link } from 'react-router-dom'
+import Insight from '../Insight/Insight'
 
 const All_Nav_bar = () => {
   return (
-    <>
+    <div className='upperNav'>
     <div className='Nav'>
             <div className='Nav1'>designed with intent.</div>
             <div className='Nav2'>
@@ -13,6 +14,7 @@ const All_Nav_bar = () => {
                  <span className='navv'> <Link to='/Glassdoor'>About me </Link> </span> 
                  <span className='navv'> <Link to='/Fun_Stuf'>Fun Stuff </Link> </span> 
                  <span className='navv'> <Link to='/WaveWorks'>WaveWork </Link> </span> 
+                 <span className='navv'> <Link to='/Insight'>Insight </Link> </span> 
               
             </div>
     </div>
@@ -22,7 +24,7 @@ const All_Nav_bar = () => {
 
 
 
-    </>
+    </div>
   )
 }
 
