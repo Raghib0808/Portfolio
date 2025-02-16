@@ -29,8 +29,6 @@ letter-spacing: -0.2px;
 
 .kit{
 display: flex;
-/* min-width: 550px; */
-max-height: 247px;
 padding: 20px;
 flex-direction: column;
 align-items: flex-start;
@@ -40,7 +38,7 @@ flex-shrink: 0;
 
 @media (max-width:786px) {
         .div0{
-            margin: 4rem 2rem 3rem 2rem;
+            margin: 4rem 1.1rem 3rem 1.1rem;
             border: solid red;
         }
 }
