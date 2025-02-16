@@ -17,6 +17,7 @@ function App() {
   return (
     <>
     <All_Nav_bar/>
+    
     <Routes>
           <Route path='/' element={<First_page/>}/>
           <Route path='/Glassdoor' element={<Head/>}/>
@@ -24,6 +25,7 @@ function App() {
           <Route path='/WaveWorks' element={<WaveWorks/>}/>
           <Route path='/Insight' element={<Insight/>}/>
     </Routes>
+
 
 
 
